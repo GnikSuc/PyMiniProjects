@@ -18,12 +18,12 @@ while True:
 
     random_number = random.randint(lower_number, upper_number)
 
-    chance = round(math.log(upper_number - lower_number + 1, 2))
-    print(f"\nYou have {chance} chances to guess the right number:\n")
+    tries = round(math.log(upper_number - lower_number + 1, 2))
+    print(f"\nYou have {tries} tries to guess the right number:\n")
 
     counter = 0
 
-    while counter < chance:
+    while counter < tries:
         guess = int(input("Enter your guess: "))
         counter = counter + 1
 
@@ -32,13 +32,13 @@ while True:
             status = 1
             break
         elif guess < random_number:
-            print(f"Too low!\tThe remaining chances: {chance - counter}\n")
+            print(f"Too low!\tThe remaining tries: {tries - counter}\n")
         else:
-            print(f"Too high!\tThe remaining chances: {chance - counter}\n")
+            print(f"Too high!\tThe remaining tries: {tries - counter}\n")
         
         
-    if counter == chance or status != 1:
-        print("Sorry, you are out of chances")
+    if counter == tries or status != 1:
+        print("Sorry, you are out of tries")
         
     repeat = input("Would you like to play again?(y/anything else): ")
     
