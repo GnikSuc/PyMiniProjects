@@ -1,0 +1,34 @@
+office worker
+computer programmer
+veterinarian
+street vendor
+factory worker
+miner
+teacher
+real estate agent
+bellboy
+gas station attendant
+speaker
+delivery man
+butcher
+pharmacist
+receptionist
+politician
+tour guide
+enterpreneur
+ballet dancer
+astronaut
+judge
+customs officer
+lawyer
+cashier
+taxi driver
+plumber
+musician
+chef
+baker
+artist
+police officer
+fireman
+doctor
+soldier
