@@ -62,5 +62,5 @@ while num_try != chance:
         print("\nBye!\n")
         break
     elif num_try == chance:
-        print("\n\nMaybe next time...")
+        print(f"\n\nSorry, the word was {word}. Maybe next time...")
         print("\nBye!\n")
