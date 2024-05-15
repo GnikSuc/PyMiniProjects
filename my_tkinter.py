@@ -24,5 +24,12 @@ my_window.config(bg="#B99E47")
 #my_window.configure(width=400,height=300,background="#B99E47")
 my_window.geometry(f"{width_of_window}x{height_of_window}+{x}+{y}")
 my_window.resizable(width=False, height=False)
+
+text1 = "\nHello World\n\nThank you for believing in me!\n\nBye!"
+label1 = Label(my_window, text=text1, bg="#B99E47",fg="Blue",font="Verdana 14 italic")
+label1.pack()
+
+
+
 my_window.mainloop()
 
